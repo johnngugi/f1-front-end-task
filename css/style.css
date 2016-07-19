@@ -1,3 +1,9 @@
+body {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #aebcb9;
+  background-color: #0d0d0d;
+}
 .cd-title {
   position: absolute;
   top: 20%;
@@ -7,7 +13,7 @@
   text-align: center;
 }
 .cd-title h1 {
-  font-size: 2.4rem;
+  font-size: 24px;
   font-weight: 700;
 }
 .hero {
@@ -16,6 +22,13 @@
   width: 100%;
   height: auto;
 }
+
+/*
+  ============================================
+  Portfolio
+  ============================================
+*/
+
 .grid {
 	padding: 20px 20px 100px 20px;
 	max-width: 1300px;
@@ -90,4 +103,14 @@
 
 .cs-style-1 figcaption a {
 	margin-top: 30px;
+}
+
+/*
+  ============================================
+  Form
+  ============================================
+*/
+
+form {
+  margin-top: 20%;
 }
