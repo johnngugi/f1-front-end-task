@@ -17,8 +17,8 @@
 		<h1>Design</h1>
 	</section>
 
-  <div id="about">
-    <section class="cd-intro">
+  <div id="about" class="row">
+    <section>
       <h1>About</h1>
 		  <p>
 		    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -26,8 +26,9 @@
 	  </section> <!-- cd-intro -->
   </div>
 
+<div class="row">
+  <h1>Portfolio</h1>
   <ul class="grid cs-style-1">
-    <h1>Portfolio</h1>
     <li>
       <figure>
         <img src="images/imageedit_53_3018489737.png" alt="" />
@@ -65,9 +66,10 @@
   </figure>
 </li>
 </ul>
+</div>
 
 
-<div class="row contacts">
+<div class="row">
       <div class="small-6 columns">
         <h1>Contacts</h1>
         <p>Email: refugeeaid@gmail.com</p>
@@ -79,7 +81,41 @@
         <img src="images/1467294133_twitter.png" alt="">
         <img src="images/1467294223_googleplus.png" alt="">
       </div>
+
+      <form>
+        <div class="row">
+          <div class="large-6 columns">
+          <p>Name</p>
+        </div>
+        <div class="large-6 columns">
+          <input type="text" placeholder="First Name" />
+        </div>
+      </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>Telephone</p>
+      </div>
+      <div class="large-6 columns">
+        <input type="text" placeholder="Telephone" />
+      </div>
     </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>Email</p>
+      </div>
+      <div class="large-6 columns">
+        <input type="text" placeholder="Email" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="large-centered text">
+        <button type="submit" class="button">Submit</button>
+      </div>
+      </div>
+    </div>
+  </form>
+
 
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/main.js"></script>
