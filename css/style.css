@@ -7,14 +7,17 @@ body {
 .cd-title {
   position: absolute;
   top: 20%;
-  right: 50%;
+  right: 45%;
   height: 100%;
   line-height: 230px;
-  text-align: center;
 }
 .cd-title h1 {
-  font-size: 24px;
+  font-size: 70px;
   font-weight: 700;
+  background: #262626;
+  border-radius: 20%;
+  padding: 30px;
+  color: #e62e00;
 }
 .hero {
   position: relative;
