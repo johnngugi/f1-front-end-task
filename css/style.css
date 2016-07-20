@@ -37,6 +37,12 @@ h1 {
 .row {
   margin-top: 10%;
 }
+footer {
+  margin-top: 30%;
+  text-align: center;
+  background-color: #e62e00;
+  width: 100% !important;
+}
 
 /*
   ============================================
