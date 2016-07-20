@@ -33,6 +33,7 @@ body {
 }
 h1 {
   color: #e62e00;
+  margin-bottom: 10%;
 }
 .row {
   margin-top: 10%;
@@ -237,9 +238,6 @@ footer {
 
 .images {
   margin-top: 20%;
-}
-.images h1 {
-  margin-bottom: 10%;
 }
 
 /*
