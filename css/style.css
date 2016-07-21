@@ -43,6 +43,7 @@ footer {
   text-align: center;
   background-color: #e62e00;
   width: 100% !important;
+  color: #000;
 }
 
 /*
@@ -237,7 +238,7 @@ footer {
 */
 
 .images {
-  margin-top: 20%;
+  margin-top: 40%;
 }
 
 /*
@@ -247,5 +248,10 @@ footer {
 */
 
 form {
-  margin-top: 20%;
+  margin-top: 40%;
+  padding: 10%;
+  background: #e62e00;
+}
+form p {
+  color: #000;
 }
