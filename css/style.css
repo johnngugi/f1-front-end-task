@@ -13,7 +13,7 @@ body {
 .cd-title {
   position: absolute;
   top: 40%;
-  right: 45%;
+  right: 40%;
   height: 100%;
   line-height: 230px;
 }
@@ -21,7 +21,7 @@ body {
   font-size: 70px;
   font-weight: 700;
   background: #262626;
-  border-radius: 20%;
+  border-radius: 5%;
   padding: 30px;
   color: #e62e00;
 }
