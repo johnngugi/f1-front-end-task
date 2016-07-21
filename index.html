@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/sass-compiled.css" />
 	<link rel="stylesheet" href="css/style.css">
+  <script src="https://use.fontawesome.com/95cb0cc2e7.js"></script>
 	<script src="js/modernizr.js"></script>
 </head>
 
@@ -33,14 +34,28 @@
   			</section>
 
 
-  <div id="about" class="row">
-    <section>
-      <h1>About</h1>
-		  <p>
-		    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		  </p>
-	  </section> <!-- cd-intro -->
-  </div>
+        <div class="row" id="about">
+              <!-- <img src="assets/photo-1445159274149-10db0c7cb5fd.jpg" class="back" alt="" /> -->
+              <div class="large-4 columns">
+                <i class="fa fa-cog fa-3x" aria-hidden="true" style="color:#e62e00;margin: 0 30%;"></i>
+                <p>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="large-4 columns">
+                <img src="assets/integrate.png" alt="Integration" />
+                <p>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="large-4 columns">
+                <img src="assets/specifications.png" alt="Specifications" />
+                <p>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
 
 <div class="row">
   <h1>Portfolio</h1>
@@ -97,6 +112,43 @@
     <img class="icons" src="images/1467294223_googleplus.png" alt="">
   </div>
 
+  <form id="myForm" name="myForm"  onsubmit="return false">
+    <div class="row">
+      <div class="large-6 columns">
+        <p>Phone Number</p>
+      </div>
+      <div class="large-6 columns">
+        <span id="message2"></span>
+        <input type="text" name="phoneNo" placeholder="Telephone" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>Email</p>
+      </div>
+      <div class="large-6 columns">
+        <span id="message1"></span>
+        <input id="email" type="text" name="email" placeholder="Email" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>Message</p>
+      </div>
+      <div class="large-6 columns">
+        <span id="message1"></span>
+        <textarea name="name" rows="8" cols="40"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="large-centered text">
+        <button onclick="formSubmit()" class="button">Submit</button>
+      </div>
+      </div>
+    </div>
+  </form>
+
   <div class="row images">
     <h1>Our Team</h1>
     <div class="large-4 columns pic">
@@ -118,8 +170,6 @@
       </span>
     </div>
   </div>
-
-
 
   <footer>
     Design © 2015 <br> All rights reserved
