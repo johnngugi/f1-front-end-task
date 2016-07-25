@@ -13,4 +13,6 @@ https://github.com/johnngugi/f1-front-end-task
 5. Home  
 6. Contact  
 
+**Tools** HTML, CSS, Foundation 6, jQuery 
+
 **Contributors** [John Ngugi](https://github.com/johnngugi)
